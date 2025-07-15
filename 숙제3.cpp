@@ -5,13 +5,13 @@ int main()
     char str[40];
     int len = 0;
 
-    printf("¹®ÀÚ¿­ ÀÔ·Â : ");
+    printf("ë¬¸ìì—´ ì…ë ¥ : ");
     scanf("%s", str);
 
     while (str[len] != '\0')
         len++;
 
-    printf("¹®ÀÚ¿­ ±æÀÌ : %d\n", len);
+    printf("ë¬¸ìì—´ ì…ë ¥ : %d\n", len);
 
     return 0;
 }
