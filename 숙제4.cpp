@@ -20,3 +20,13 @@ int main()
 
     return 0;
 }
+
+
+/*int strlen(char* str)
+{
+	char* p = str;
+	while (*p != '\0')
+		p++;
+	return p-str;
+}*/
+
