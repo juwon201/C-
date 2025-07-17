@@ -15,8 +15,6 @@ int main()
     scanf("%s", str);
     
     int len = strlen(str);
-    while (str[len] != '\0')
-        len++;
 
     printf("문자열 길이 : %d\n", len);
 
